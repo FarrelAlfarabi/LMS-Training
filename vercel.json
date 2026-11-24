@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "echo skip",
+  "buildCommand": "bash tools/vercel-build.sh",
+  "outputDirectory": "app/build/web",
+  "rewrites": [{ "source": "/((?!media/|assets/|icons/|.*\\.(?:js|json|wasm|png|ico|mp4|pdf|ttf|otf|map)$).*)", "destination": "/index.html" }]
+}
