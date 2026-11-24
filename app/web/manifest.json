@@ -1,11 +1,11 @@
 {
-    "name": "bigma_lms",
-    "short_name": "bigma_lms",
+    "name": "Bigma Belajar",
+    "short_name": "Bigma",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Pelatihan karyawan",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

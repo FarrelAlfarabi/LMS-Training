@@ -17,4 +17,3 @@ if [ -n "${SUPABASE_URL:-}" ] && [ -n "${SUPABASE_ANON_KEY:-}" ]; then
   DEFINES+=(--dart-define=SUPABASE_URL="$SUPABASE_URL" --dart-define=SUPABASE_ANON_KEY="$SUPABASE_ANON_KEY")
 fi
 flutter build web --release "${DEFINES[@]}"
-rm -rf build/web/canvaskit   # loaded from Google's CDN at runtime
